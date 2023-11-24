@@ -1,0 +1,6 @@
+env: 'local'
+storage_path: './storage/sso.db' #где лежит бд
+token_ttl: 1h #срок действия токена
+grpc:
+    port: 44044
+    timeout: 10h
